@@ -1,0 +1,11 @@
+[qaserver]
+3.238.14.62
+[devserver]
+44.212.2.168
+#[children:devqa]
+
+#qaserver
+#devserver
+
+[all:vars]
+ansible_ssh_private_key_file=/home/ec2-user/keypair.pem
